@@ -24,7 +24,6 @@ class Song
     else
       @artist.name
     end
-    artist_name = self.artist
   end
   
   
