@@ -13,8 +13,12 @@ class Song
     @@all << self
   end
   
-  def self.artist_name
-    song.artist = @artist
+   def artist_name
+    if @artist == nil
+      return nil
+    else
+      @artist.name
+    end
   end
   
   
