@@ -20,6 +20,7 @@ class Song
   end
   
    def artist_name
+     artist_name = self.artist
     if @artist == nil
       return nil
     else
